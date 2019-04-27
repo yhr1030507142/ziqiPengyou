@@ -1,0 +1,125 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		 {
+		    "path" : "pages/login/login",
+		    "style" : {
+		    	"navigationBarTitleText" : "登录"
+		    }
+		},
+		  {
+		    "path" : "pages/index/index",
+		    "style" : {
+		        "navigationBarTitleText" : "子期",
+		    	"enablePullDownRefresh" : true
+// 		        "app-plus" : {
+// 		            "bounce" : "none",
+// 		            "titleNView" : {
+// 		                "type" : "transparent",
+// 		                "buttons" : [
+// 		                    {
+// 		                        "background" : "rgba(255,255,255,0.2)",
+// 		                        "color" : "#696969",
+// 		                        "type" : "none",
+// 		                        "fontSrc" : "/static/fonts/iconfont.ttf",
+// 		                        "text" : "\ue608" //小相机
+// 		                    }
+// 		                ]
+// 		            }
+ 		        
+		    }
+		},
+		 {
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "子期",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		    "path" : "pages/publish/publish",
+		    "style" : {
+				"navigationBarTitleText" : "发布"
+			}
+		}, 
+     
+        
+		
+		 {
+		    "path" : "pages/talk/talk",
+		     "style": {
+		    	"navigationBarTitleText": "聊天室"
+		    }
+		},
+	    {
+            "path" : "pages/my/my",
+            "style": {
+            	"navigationBarTitleText": "my"
+            }
+        } 
+        ,{
+            "path" : "pages/write/write",
+            "style": {
+            	"navigationBarTitleText": "write"
+            }
+        }
+       
+        ,{
+            "path" : "pages/chat/chat", 
+            "style": {
+            	"navigationBarTitleText": "chat"
+            }
+        }
+       
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "white",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#fc6060",
+        "backgroundColor" : "#F8F8F8"
+    },
+	"tabBar" : {
+        "color" : "#707070",
+        "selectedColor" : "#DE533A",
+        "list" : [
+            {
+                "pagePath" : "pages/home/index",
+                "text" : "家",
+                "iconPath" : "static/nav1.png",
+                "selectedIconPath" : "static/nav1-a.png" 
+            },
+            {
+                "pagePath" : "pages/write/write", 
+                "text" : "相册",
+                "iconPath" : "static/nav2.png",
+                "selectedIconPath" : "static/nav2-a.png"
+            },
+// 			{
+// 			    "pagePath" : "pages/talk/talk",
+// 			    "text" : "消息",
+// 			    "iconPath" : "static/nav2.png",
+// 			    "selectedIconPath" : "static/nav2-a.png"
+// 			},
+//             {
+//                 "pagePath" : "pages/my/my",
+//                 "text" : "我的",
+//                 "iconPath" : "static/nav3.png",
+//                 "selectedIconPath" : "static/nav3-a.png"
+//             }, 
+			{
+                "pagePath" : "pages/chat/chat",
+                "text" : "chat",
+                "iconPath" : "static/nav3.png",
+                "selectedIconPath" : "static/nav3-a.png"
+            },
+			{
+			    "pagePath" : "pages/index/index",
+			    "text" : "home",
+			    "iconPath" : "static/nav3.png",
+			    "selectedIconPath" : "static/nav3-a.png"
+			}
+        ]
+    }
+	
+	
+}

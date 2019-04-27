@@ -1,0 +1,4 @@
+<import src="/components/im-chat/chatinput.vue.wxml" />
+<import src="/pages/talk/messageshow.vue.wxml" />
+<import src="/pages/talk/chatinput.vue.wxml" />
+
